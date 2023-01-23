@@ -1,0 +1,189 @@
+*{
+  scroll-behavior: smooth;
+
+}
+.container {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  /*ColdDrip logon längst upp till vänster*/ 
+.item {
+    flex-grow: 1; 
+    height: auto;    
+    width: 80px;    
+    display: flex; 
+    text-align: center; 
+    font-size: 80px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: auto;  
+    margin: auto;
+    border-radius: 4em;
+    
+}
+  
+   /*boxes som är längst upp med blå färg*/ 
+.item + .item {
+    margin-left: 35%;  
+    display: flex;
+    width: 40px;      
+    height: 110px;    
+    background-color: green;     
+    margin: 3px;   
+    font-size: 32px;      
+    box-sizing: border-box; 
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    justify-content: center; 
+    color: white;  
+    
+} 
+
+/* design för text*/
+a {
+    text-decoration: none; 
+    color: white; 
+}
+  
+  /*background*/ 
+body {
+
+    background-color: lightyellow;    
+    font-family: serif; 
+    font-size: 50px; 
+    margin-bottom: 100px; 
+    height: 500px;
+}    
+
+
+/* det är footer för alla sidor*/
+.footer {
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green; 
+  color: white;
+  text-align: center;
+  height: 5%;     
+  font-size: 30%;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  
+} 
+
+#indexh1{
+  color: green;  
+  text-align: center; 
+  font-size: 90%;        
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  
+}
+
+#indexh2{
+  color: black;  
+  text-align: center; 
+  font-size: x-large; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}  
+
+#indexh3{ 
+  color: black;  
+  text-align: center; 
+  font-size: xx-large;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+} 
+
+
+.container2{
+  background-color: green;
+  border-radius: 4em;
+  justify-content: center;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+} 
+
+#contactsh1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  text-align: center;  
+  font-size: 50px;   
+}  
+
+#contactsh2{ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  text-align: center; 
+  font-size: x-large;   
+
+} 
+
+.contet{
+  display: flex; 
+  justify-content: center;   
+
+} 
+
+.abouth1{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 45px; 
+  color: black;  
+} 
+
+.abouth2{ 
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 25px; 
+  color: green; 
+}  
+
+.abouth3{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 25px; 
+  color: black;
+}  
+
+.abouth4{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 25px; 
+  color: green; 
+}  
+
+.abouth5{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 25px; 
+  color: black;
+}  
+
+.eventsh1{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 45px; 
+  color: black; 
+} 
+
+.paragraph{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 25px; 
+  color: black; 
+} 
+
+.eventsh2{
+  text-align: center; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 50px; 
+  color: green; 
+} 
+
+#TheChange{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;    
+} 
